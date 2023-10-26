@@ -1,0 +1,811 @@
+.mane {
+  background-image: url(../img/header_images.jpg);
+  background-size: cover;
+  padding: 40px;
+  background-position: center;
+}
+.mane nav .box ul li a {
+  font-size: 14px;
+  color: #a4a4a4;
+  font-family: "Raleway";
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.mane nav .box ul li a i {
+  font-size: 15px;
+  color: #be9667;
+  padding: 0 10px;
+}
+.mane nav .box ul li a button {
+  padding: 20px 25px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #be9667;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #be9667;
+  font-family: "Raleway";
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all 1s;
+}
+.mane nav .box ul li a button:hover {
+  background-color: #be9667;
+  color: #f1f1f1;
+}
+.mane nav .box .logo img {
+  width: 250px;
+}
+.mane header {
+  padding: 50px 0;
+}
+.mane header ul li a {
+  padding: 50px;
+  color: #a4a4a4;
+  font-family: "Raleway";
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.mane header ul li a:hover {
+  color: #be9667;
+}
+.mane header ul li:first-child a {
+  color: #be9667;
+}
+.mane .head {
+  padding: 100px 0;
+}
+.mane .head h2 {
+  font-size: 83px;
+  color: #f1f1f1;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+.mane .head span {
+  color: #be9667;
+  font-family: "Playfair Display";
+}
+.mane .head button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+}
+
+.discover {
+  position: relative;
+  padding: 50px 0;
+}
+.discover .text {
+  position: relative;
+}
+.discover .text h2 {
+  font-size: 65px;
+  letter-spacing: 5px;
+  color: #160c06;
+  font-weight: 400;
+  margin-left: 25px;
+  font-family: "Playfair Display";
+}
+.discover .text h6 {
+  font-size: 10px;
+  color: #be9667;
+  font-family: "Raleway";
+  letter-spacing: 5px;
+  font-weight: 900;
+  margin: 25px 0 0 30px;
+}
+.discover .text p {
+  font-size: 14px;
+  color: #757575;
+  font-family: "Raleway";
+  font-weight: 600;
+  word-spacing: 5px;
+  margin: 35px 0 0 30px;
+}
+.discover .text button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+}
+.discover .text::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(40deg);
+  background-color: #be9667;
+  top: 44%;
+  right: 56%;
+}
+
+.discover::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  border: 1px solid #be9667;
+  top: 43%;
+  right: 15%;
+}
+
+.services {
+  padding: 50px 0;
+  background-color: #F9F8F8;
+}
+.services .title {
+  position: relative;
+}
+.services .title .text {
+  position: relative;
+}
+.services .title .text h6 {
+  font-size: 14px;
+  color: #160c06;
+  letter-spacing: 5px;
+  font-weight: 900;
+  padding: 50px 0;
+  font-family: "Raleway";
+}
+.services .title::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  border: 1px solid #be9667;
+  top: 50%;
+  right: 26%;
+}
+.services .title::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  border: 1px solid #be9667;
+  top: 50%;
+  left: 26%;
+}
+.services .text::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(40deg);
+  background-color: #be9667;
+  top: 47%;
+  right: -30%;
+}
+.services .text::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(40deg);
+  background-color: #be9667;
+  top: 46%;
+  left: -30%;
+}
+.services .box img {
+  width: 230px;
+  border-radius: 50%;
+}
+.services .box .box1 a {
+  font-size: 32px;
+  color: #160c06;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+.services .box .box1 p {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #757575;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 30px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.services .box .box1 button {
+  margin-top: 40px;
+  padding: 20px 25px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #be9667;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #be9667;
+  font-family: "Raleway";
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all 1s;
+}
+.services .box .box1 button:hover {
+  background-color: #be9667;
+  color: #f1f1f1;
+}
+
+.desing {
+  padding: 100px 0;
+  background-image: url(../img/background-14.webp);
+  background-size: cover;
+}
+.desing h2 {
+  font-size: 45px;
+  color: #f1f1f1;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.desing h6 {
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #be9667;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.desing button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+}
+
+.media {
+  position: relative;
+  padding: 50px 0;
+}
+.media .text {
+  position: relative;
+}
+.media .text h2 {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  color: #160c06;
+  font-family: "Playfair Display";
+}
+.media .text h6 {
+  font-size: 10px;
+  color: #be9667;
+  font-family: "Raleway";
+  letter-spacing: 3px;
+  font-weight: 900;
+  margin-top: 23px;
+}
+.media .text p {
+  font-size: 14px;
+  font-family: "Raleway";
+  font-weight: 900;
+  word-spacing: 4px;
+  line-height: 25px;
+  margin-top: 35px;
+}
+.media .text button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+  margin: 40px 0 0 0;
+}
+.media .text::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(40deg);
+  background-color: #be9667;
+  top: 46%;
+  right: 70%;
+}
+
+.media::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  border: 1px solid #be9667;
+  top: 48%;
+  right: 22%;
+}
+
+.tailors {
+  background-color: #F9F8F8;
+}
+.tailors .title {
+  position: relative;
+}
+.tailors .title .text {
+  position: relative;
+}
+.tailors .title .text h6 {
+  font-size: 14px;
+  color: #160c06;
+  letter-spacing: 5px;
+  font-weight: 900;
+  padding: 50px 0;
+  font-family: "Raleway";
+}
+.tailors .title .text::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(40deg);
+  background-color: #be9667;
+  top: 46%;
+  right: -32%;
+}
+.tailors .title .text::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(40deg);
+  background-color: #be9667;
+  top: 46%;
+  left: -32%;
+}
+.tailors .box2 img {
+  width: 100%;
+}
+.tailors .box2 .box3 {
+  padding: 35px 40px;
+}
+.tailors .box2 .box3 h6 {
+  font-size: 11px;
+  font-family: "Raleway";
+  color: #5f5f5f;
+  letter-spacing: 7px;
+}
+.tailors .box2 .box3 a {
+  font-size: 30px;
+  color: #160c06;
+  letter-spacing: 2px;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 15px;
+}
+.tailors .box2 .box3 a:hover {
+  color: #be9667;
+}
+.tailors .box2 .box3 .box4 {
+  margin-top: 15px;
+}
+.tailors .box2 .box3 .box4 .icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid #be9667;
+  transform: rotate(45deg);
+}
+.tailors .box2 .box3 .box4 .icon i {
+  transform: rotate(-45deg);
+  font-size: 12px;
+  color: #be9667;
+  text-align: center;
+  line-height: 35px;
+  padding-left: 10px;
+}
+.tailors .box2 .box3 .box4 .icon:hover i {
+  color: #f1f1f1;
+}
+.tailors .box2 .box3 .box4 .icon:hover {
+  background-color: #be9667;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  border: 1px solid #be9667;
+  top: 50%;
+  right: 27%;
+}
+
+.title::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  border: 1px solid #be9667;
+  top: 50%;
+  left: 27%;
+}
+
+.testimonials {
+  padding: 100px;
+  background-size: cover;
+  background-image: url(../img/background-3.webp);
+  text-align: center;
+}
+.testimonials h2 {
+  font-size: 45px;
+  color: #f1f1f1;
+  font-family: "Playfair Display";
+  font-weight: 100;
+}
+.testimonials p {
+  font-size: 14px;
+  color: #f1f1f1;
+  font-family: "Raleway";
+  margin-top: 80px;
+  font-weight: 600;
+  padding: 0 150px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+.testimonials h4 {
+  font-size: 12px;
+  color: #be9667;
+  font-family: "Raleway";
+  font-weight: 600;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.story {
+  padding: 50px 0;
+}
+.story h2 {
+  font-size: 45px;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  color: #160c06;
+}
+.story p {
+  font-size: 14px;
+  color: #160c06;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.story span {
+  font-size: 35px;
+  color: #160c06;
+}
+
+.ready {
+  padding-top: 50px;
+  background-color: #F9F8F8;
+}
+.ready h2 {
+  font-size: 60px;
+  color: #160c06;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  text-align: center;
+}
+.ready h6 {
+  font-size: 12px;
+  font-family: "Raleway";
+  font-weight: 900;
+  color: #be9667;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  text-align: center;
+}
+.ready .box img {
+  width: 100%;
+}
+.ready .box .box1 {
+  text-align: center;
+  padding: 32px 44px;
+}
+.ready .box .box1 h3 {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  color: #160c06;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.ready .box .box1 h3:hover {
+  color: #be9667;
+}
+.ready .box .box1 span {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  color: #160c06;
+  letter-spacing: 2px;
+}
+.ready .box .box1 button {
+  margin-top: 30px;
+  padding: 20px 25px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #be9667;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #be9667;
+  font-family: "Raleway";
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all 1s;
+}
+.ready .box .box1 button:hover {
+  background-color: #be9667;
+  color: #f1f1f1;
+}
+
+.latest {
+  padding: 100px 0;
+  background-image: url(../img/background-16.webp);
+  background-size: cover;
+}
+.latest h2 {
+  font-size: 45px;
+  color: #f1f1f1;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.latest h6 {
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #be9667;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.latest button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+}
+
+.contact {
+  padding-top: 50px;
+}
+.contact img {
+  width: 45%;
+  height: 80%;
+}
+.contact h5 {
+  font-size: 45px;
+  color: #160c06;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.contact p {
+  font-size: 14px;
+  font-family: "Raleway";
+  font-weight: 900;
+  color: #160c06;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+.contact ul li {
+  margin-bottom: 25px;
+}
+.contact ul li a {
+  font-size: 16px;
+  color: #160c06;
+  font-family: "Raleway";
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.contact ul li a i {
+  font-size: 25px;
+  color: #be9667;
+  padding-right: 15px;
+}
+
+footer .box {
+  margin-top: 15px;
+}
+footer .box .icon {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  border: 1px solid #be9667;
+  transform: rotate(45deg);
+}
+footer .box .icon i {
+  transform: rotate(-45deg);
+  font-size: 16px;
+  color: #be9667;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 15px;
+}
+footer .box h4 {
+  font-size: 26px;
+  font-weight: 100;
+  font-family: "Playfair Display";
+}
+footer .box .icon:hover i {
+  color: #f1f1f1;
+}
+footer .box .icon:hover {
+  background-color: #be9667;
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: #160c06;
+  text-align: center;
+}
+.footer a {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #f1f1f1;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.footer a span {
+  font-weight: 100;
+}
+
+.mane {
+  background-image: url(../img/header_images.jpg);
+  background-size: cover;
+  padding: 40px;
+  background-position: center;
+}
+.mane .about {
+  padding: 100px 0;
+}
+.mane .about h2 {
+  font-size: 72px;
+  color: #be9667;
+  font-family: "Playfair Display";
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+.mane .about button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+}
+
+.peter {
+  position: relative;
+  padding: 50px 0;
+}
+.peter h2 {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  color: #160c06;
+  font-family: "Playfair Display";
+}
+.peter h6 {
+  font-size: 10px;
+  color: #be9667;
+  font-family: "Raleway";
+  letter-spacing: 3px;
+  font-weight: 900;
+  margin-top: 23px;
+}
+.peter p {
+  font-size: 14px;
+  font-family: "Raleway";
+  font-weight: 900;
+  word-spacing: 4px;
+  line-height: 25px;
+  margin-top: 35px;
+}
+.peter button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+  margin: 40px 0 0 0;
+}
+
+.contacts {
+  padding-top: 50px;
+}
+.contacts h5 {
+  font-size: 45px;
+  color: #160c06;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.contacts p {
+  font-size: 14px;
+  font-family: "Raleway";
+  font-weight: 900;
+  color: #160c06;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+.contacts ul li {
+  margin-bottom: 25px;
+}
+.contacts ul li a {
+  font-size: 16px;
+  color: #160c06;
+  font-family: "Raleway";
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.contacts ul li a i {
+  font-size: 25px;
+  color: #be9667;
+  padding-right: 15px;
+}
+
+.message {
+  padding: 50px;
+}
+.message h2 {
+  font-size: 45px;
+  font-family: "Playfair Display";
+  color: #160c06;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.message .box form {
+  padding: 30px 0;
+  text-align: center;
+}
+.message .box form input {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  background-color: #F9F8F8;
+}
+.message .box form ::-moz-placeholder {
+  font-size: 15px;
+  color: #a4a4a4;
+  padding-left: 20px;
+}
+.message .box form ::placeholder {
+  font-size: 15px;
+  color: #a4a4a4;
+  padding-left: 20px;
+}
+.message .box form textarea {
+  border-radius: 10px;
+  border: none;
+  background-color: #F9F8F8;
+}
+.message button {
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #f1f1f1;
+  background-color: #be9667;
+  border: none;
+  transition: all 2s;
+  margin: 0;
+}
+
+.gallery img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

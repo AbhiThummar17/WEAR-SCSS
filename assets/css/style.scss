@@ -1,0 +1,907 @@
+$font-color-1: #be9667;
+$font-color-2: #a4a4a4;
+$font-color-3: #160c06;
+$font-color-4: #757575;
+$font-color-5: #f1f1f1;
+$font-color-6: #5f5f5f;
+$section-color: #F9F8F8;
+$Raleway-fonts: 'Raleway';
+$Playfair-Display-fonts: 'Playfair Display';
+
+@mixin btn {
+    margin: 30px;
+    font-size: 12px;
+    padding: 20px 40px;
+    color: $font-color-5;
+    background-color: $font-color-1;
+    border: none;
+    transition: all 2s;
+}
+
+@mixin btn1 {
+    padding: 20px 25px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: $font-color-1;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid $font-color-1;
+    font-family: $Raleway-fonts;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 1s;
+}
+
+.mane {
+    background-image: url(../img/header_images.jpg);
+
+    background-size: cover;
+    padding: 40px;
+    background-position: center;
+
+    nav {
+        .box {
+            ul {
+                li {
+                    a {
+                        font-size: 14px;
+                        color: $font-color-2;
+                        font-family: $Raleway-fonts;
+                        font-weight: 900;
+                        letter-spacing: 1px;
+
+                        i {
+                            font-size: 15px;
+                            color: $font-color-1;
+                            padding: 0 10px;
+                        }
+
+                        button {
+                            @include btn1;
+                        }
+
+                        button:hover {
+                            background-color: $font-color-1;
+                            color: $font-color-5;
+                        }
+                    }
+                }
+            }
+
+            .logo {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    header {
+        padding: 50px 0;
+
+        ul {
+            li {
+                a {
+                    padding: 50px;
+                    color: $font-color-2;
+                    font-family: $Raleway-fonts;
+                    font-weight: 900;
+                    letter-spacing: 2px;
+                }
+
+                a:hover {
+                    color: $font-color-1;
+                }
+            }
+
+            li:first-child a {
+                color: $font-color-1;
+            }
+        }
+    }
+
+    .head {
+        padding: 100px 0;
+
+        h2 {
+            font-size: 83px;
+            color: $font-color-5;
+            font-weight: 100;
+            letter-spacing: 5px;
+        }
+
+        span {
+            color: $font-color-1;
+            font-family: $Playfair-Display-fonts;
+        }
+
+        button {
+            @include btn;
+        }
+    }
+}
+
+.discover {
+    position: relative;
+    padding: 50px 0;
+
+    .text {
+        position: relative;
+
+        h2 {
+            font-size: 65px;
+            letter-spacing: 5px;
+            color: $font-color-3;
+            font-weight: 400;
+            margin-left: 25px;
+            font-family: $Playfair-Display-fonts;
+        }
+
+        h6 {
+            font-size: 10px;
+            color: $font-color-1;
+            font-family: $Raleway-fonts;
+            letter-spacing: 5px;
+            font-weight: 900;
+            margin: 25px 0 0 30px;
+        }
+
+        p {
+            font-size: 14px;
+            color: $font-color-4;
+            font-family: $Raleway-fonts;
+            font-weight: 600;
+            word-spacing: 5px;
+            margin: 35px 0 0 30px;
+        }
+
+        button {
+            @include btn;
+        }
+    }
+
+    .text::after {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        transform: rotate(40deg);
+        background-color: $font-color-1;
+        top: 44%;
+        right: 56%;
+    }
+}
+
+.discover::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    border: 1px solid $font-color-1;
+    top: 43%;
+    right: 15%;
+}
+
+.services {
+    padding: 50px 0;
+    background-color: $section-color;
+
+    .title {
+        position: relative;
+
+        .text {
+            position: relative;
+
+            h6 {
+                font-size: 14px;
+                color: $font-color-3;
+                letter-spacing: 5px;
+                font-weight: 900;
+                padding: 50px 0;
+                font-family: $Raleway-fonts;
+            }
+        }
+    }
+
+    .title::after {
+        position: absolute;
+        content: '';
+        width: 150px;
+        border: 1px solid $font-color-1;
+        top: 50%;
+        right: 26%;
+    }
+
+    .title::before {
+        position: absolute;
+        content: '';
+        width: 150px;
+        border: 1px solid $font-color-1;
+        top: 50%;
+        left: 26%;
+    }
+
+    .text::after {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        transform: rotate(40deg);
+        background-color: $font-color-1;
+        top: 47%;
+        right: -30%;
+    }
+
+    .text::before {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        transform: rotate(40deg);
+        background-color: $font-color-1;
+        top: 46%;
+        left: -30%;
+    }
+
+    .box {
+        img {
+            width: 230px;
+            border-radius: 50%;
+        }
+
+        .box1 {
+            a {
+                font-size: 32px;
+                color: $font-color-3;
+                font-family: $Playfair-Display-fonts;
+                font-weight: 500;
+                text-align: center;
+                letter-spacing: 5px;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                font-family: $Raleway-fonts;
+                color: $font-color-4;
+                font-weight: 900;
+                text-align: center;
+                margin-top: 30px;
+                word-spacing: 5px;
+                line-height: 25px;
+            }
+
+            button {
+                margin-top: 40px;
+                @include btn1;
+            }
+
+            button:hover {
+                background-color: $font-color-1;
+                color: $font-color-5;
+            }
+        }
+    }
+}
+
+.desing {
+    padding: 100px 0;
+    background-image: url(../img/background-14.webp);
+    background-size: cover;
+
+    h2 {
+        font-size: 45px;
+        color: $font-color-5;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+    h6 {
+        font-size: 18px;
+        font-family: $Raleway-fonts;
+        color: $font-color-1;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
+
+    button {
+        @include btn;
+    }
+}
+
+.media {
+    position: relative;
+    padding: 50px 0;
+
+    .text {
+        position: relative;
+
+        h2 {
+            font-size: 60px;
+            font-weight: 500;
+            letter-spacing: 10px;
+            color: $font-color-3;
+            font-family: $Playfair-Display-fonts;
+        }
+
+        h6 {
+            font-size: 10px;
+            color: $font-color-1;
+            font-family: $Raleway-fonts;
+            letter-spacing: 3px;
+            font-weight: 900;
+            margin-top: 23px;
+        }
+
+
+        p {
+            font-size: 14px;
+            font-family: $Raleway-fonts;
+            font-weight: 900;
+            word-spacing: 4px;
+            line-height: 25px;
+            margin-top: 35px;
+        }
+
+        button {
+            @include btn;
+            margin: 40px 0 0 0;
+        }
+    }
+
+    .text::after {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        transform: rotate(40deg);
+        background-color: $font-color-1;
+        top: 46%;
+        right: 70%;
+    }
+}
+
+.media::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    border: 1px solid $font-color-1;
+    top: 48%;
+    right: 22%;
+}
+
+.tailors {
+    background-color: $section-color;
+
+    .title {
+        position: relative;
+
+        .text {
+            position: relative;
+
+            h6 {
+                font-size: 14px;
+                color: $font-color-3;
+                letter-spacing: 5px;
+                font-weight: 900;
+                padding: 50px 0;
+                font-family: $Raleway-fonts;
+            }
+        }
+
+        .text::after {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 10px;
+            transform: rotate(40deg);
+            background-color: $font-color-1;
+            top: 46%;
+            right: -32%;
+        }
+
+        .text::before {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 10px;
+            transform: rotate(40deg);
+            background-color: $font-color-1;
+            top: 46%;
+            left: -32%;
+        }
+    }
+
+    .box2 {
+        img {
+            width: 100%;
+        }
+
+        .box3 {
+            padding: 35px 40px;
+
+            h6 {
+                font-size: 11px;
+                font-family: $Raleway-fonts;
+                color: $font-color-6;
+                letter-spacing: 7px;
+            }
+
+            a {
+                font-size: 30px;
+                color: $font-color-3;
+                letter-spacing: 2px;
+                font-family: $Playfair-Display-fonts;
+                font-weight: 500;
+                letter-spacing: 3px;
+                margin-top: 15px;
+            }
+
+            a:hover {
+                color: $font-color-1;
+            }
+
+            .box4 {
+                margin-top: 15px;
+
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                    margin: 10px;
+                    border: 1px solid $font-color-1;
+                    transform: rotate(45deg);
+
+                    i {
+                        transform: rotate(-45deg);
+                        font-size: 12px;
+                        color: $font-color-1;
+                        text-align: center;
+                        line-height: 35px;
+                        padding-left: 10px;
+                    }
+
+                }
+
+                .icon:hover i {
+                    color: $font-color-5;
+                }
+
+                .icon:hover {
+                    background-color: $font-color-1;
+                }
+            }
+        }
+    }
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    border: 1px solid $font-color-1;
+    top: 50%;
+    right: 27%;
+}
+
+.title::before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    border: 1px solid $font-color-1;
+    top: 50%;
+    left: 27%;
+}
+
+.testimonials {
+    padding: 100px;
+    background-size: cover;
+    background-image: url(../img/background-3.webp);
+    text-align: center;
+
+    h2 {
+        font-size: 45px;
+        color: $font-color-5;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 14px;
+        color: $font-color-5;
+        font-family: $Raleway-fonts;
+        margin-top: 80px;
+        font-weight: 600;
+        padding: 0 150px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    h4 {
+        font-size: 12px;
+        color: $font-color-1;
+        font-family: $Raleway-fonts;
+        font-weight: 600;
+        margin-top: 40px;
+        letter-spacing: 2px;
+    }
+}
+
+.story {
+    padding: 50px 0;
+
+    h2 {
+        font-size: 45px;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 500;
+        color: $font-color-3;
+    }
+
+    p {
+        font-size: 14px;
+        color: $font-color-3;
+        font-family: $Raleway-fonts;
+        font-weight: 900;
+        text-align: center;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        line-height: 25px;
+    }
+    span {
+        font-size: 35px;
+        color: $font-color-3;
+    }
+}
+
+.ready {
+    padding-top: 50px;
+    background-color: $section-color;
+
+    h2 {
+        font-size: 60px;
+        color: $font-color-3;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 500;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 12px;
+        font-family: $Raleway-fonts;
+        font-weight: 900;
+        color: $font-color-1;
+        margin-top: 20px;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+    .box {
+        img {
+            width: 100%;
+        }
+
+        .box1 {
+            text-align: center;
+            padding: 32px 44px;
+
+            h3 {
+                font-size: 16px;
+                font-family: $Playfair-Display-fonts;
+                font-weight: 600;
+                color: $font-color-3;
+                letter-spacing: 1px;
+                margin-bottom: 20px;
+            }
+
+            h3:hover {
+                color: $font-color-1;
+            }
+
+            span {
+                font-size: 16px;
+                font-family: $Playfair-Display-fonts;
+                font-weight: 600;
+                color: $font-color-3;
+                letter-spacing: 2px;
+            }
+
+            button {
+                margin-top: 30px;
+                @include btn1;
+            }
+
+            button:hover {
+                background-color: $font-color-1;
+                color: $font-color-5;
+            }
+        }
+    }
+}
+
+.latest {
+    padding: 100px 0;
+    background-image: url(../img/background-16.webp);
+    background-size: cover;
+
+    h2 {
+        font-size: 45px;
+        color: $font-color-5;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+    h6 {
+        font-size: 18px;
+        font-family: $Raleway-fonts;
+        color: $font-color-1;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
+
+    button {
+        @include btn;
+    }
+}
+
+.contact {
+    padding-top: 50px;
+
+    img {
+        width: 45%;
+        height: 80%;
+    }
+
+    h5 {
+        font-size: 45px;
+        color: $font-color-3;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: $Raleway-fonts;
+        font-weight: 900;
+        color: $font-color-3;
+        line-height: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+    }
+
+    ul {
+        li {
+            margin-bottom: 25px;
+
+            a {
+                font-size: 16px;
+                color: $font-color-3;
+                font-family: $Raleway-fonts;
+                font-weight: 900;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+
+                i {
+                    font-size: 25px;
+                    color: $font-color-1;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .box {
+        margin-top: 15px;
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            margin: 20px;
+            border: 1px solid $font-color-1;
+            transform: rotate(45deg);
+
+            i {
+                transform: rotate(-45deg);
+                font-size: 16px;
+                color: $font-color-1;
+                text-align: center;
+                line-height: 50px;
+                padding-left: 15px;
+            }
+        }
+
+        h4 {
+            font-size: 26px;
+            font-weight: 100;
+            font-family: $Playfair-Display-fonts;
+        }
+
+        .icon:hover i {
+            color: $font-color-5;
+        }
+
+        .icon:hover {
+            background-color: $font-color-1;
+        }
+    }
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: $font-color-3;
+    text-align: center;
+
+    a {
+        font-size: 14px;
+        font-family: $Raleway-fonts;
+        color: $font-color-5;
+        font-weight: 900;
+        letter-spacing: 1px;
+
+        span {
+            font-weight: 100;
+        }
+    }
+}
+
+// about
+
+.mane {
+    background-image: url(../img/header_images.jpg);
+
+    background-size: cover;
+    padding: 40px;
+    background-position: center;
+
+    .about {
+        padding: 100px 0;
+
+        h2 {
+            font-size: 72px;
+            color: $font-color-1;
+            font-family: $Playfair-Display-fonts;
+            font-weight: 100;
+            letter-spacing: 5px;
+        }
+
+        button {
+            @include btn;
+        }
+    }
+}
+
+.peter {
+    position: relative;
+    padding: 50px 0;
+
+        h2 {
+            font-size: 60px;
+            font-weight: 500;
+            letter-spacing: 10px;
+            color: $font-color-3;
+            font-family: $Playfair-Display-fonts;
+        }
+
+        h6 {
+            font-size: 10px;
+            color: $font-color-1;
+            font-family: $Raleway-fonts;
+            letter-spacing: 3px;
+            font-weight: 900;
+            margin-top: 23px;
+        }
+
+
+        p {
+            font-size: 14px;
+            font-family: $Raleway-fonts;
+            font-weight: 900;
+            word-spacing: 4px;
+            line-height: 25px;
+            margin-top: 35px;
+        }
+
+        button {
+            @include btn;
+            margin: 40px 0 0 0;
+        }
+}
+
+// contacts
+
+.contacts {
+    padding-top: 50px;
+
+    h5 {
+        font-size: 45px;
+        color: $font-color-3;
+        font-family: $Playfair-Display-fonts;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: $Raleway-fonts;
+        font-weight: 900;
+        color: $font-color-3;
+        line-height: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+    }
+
+    ul {
+        li {
+            margin-bottom: 25px;
+
+            a {
+                font-size: 16px;
+                color: $font-color-3;
+                font-family: $Raleway-fonts;
+                font-weight: 900;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+
+                i {
+                    font-size: 25px;
+                    color: $font-color-1;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+}
+
+.message{
+    padding: 50px;
+
+    h2{
+        font-size: 45px;
+        font-family: $Playfair-Display-fonts;
+        color: $font-color-3;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+
+    .box{
+        form{
+            padding: 30px 0;
+            text-align: center;
+            input{
+                width: 400px;
+                height: 50px;
+                border-radius: 10px;
+                border: none; 
+                margin: 10px;
+                background-color: $section-color;
+            }
+            ::placeholder{
+                font-size: 15px;
+                color: $font-color-2;
+                padding-left: 20px;
+            }
+            textarea{
+                border-radius: 10px;
+                border: none; 
+                background-color: $section-color;
+            }
+        }
+    }
+
+    button{
+        @include btn;
+        margin: 0;
+    }
+}
+
+// gallery
+
+.gallery{
+    img{
+        width: 100%;
+    }
+}
